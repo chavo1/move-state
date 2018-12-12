@@ -28,7 +28,7 @@ data.terraform_remote_state.random_pet: Refreshing state...
 
 Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
-- Than destroy the result should be as follow
+- Than destroy the result should be as similar to following:
 
 ```
 $ terraform destroy
@@ -37,11 +37,11 @@ data.terraform_remote_state.random_pet: Refreshing state...
 
 An execution plan has been generated and is shown below.
 Resource actions are indicated with the following symbols:
-  - destroy
+  -destroy
 
 Terraform will perform the following actions:
 
-  - random_pet.name
+  -random_pet.name
 
 
 Plan: 0 to add, 0 to change, 1 to destroy.
