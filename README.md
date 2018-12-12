@@ -1,11 +1,13 @@
 # Example Terraform Move state
 
+
 ## Clone the repo
 
 ```
 git clone https://github.com/chavo1/move-state.git
 cd move-state/sample
 ```
+
 - Initialise the provider and apply changes
 ```
 terraform init
@@ -15,6 +17,10 @@ terraform apply
 ```
 terraform state mv -state-out=../random_pet/terraform.tfstate random_pet.name random_pet.name
 cd ../random_pet
+```
+- export your ATATLAS_TOKEN
+```
+ATLAS_TOKEN=<your_atlas_token>
 ```
 - Initialise the provider and apply changes
 ```
