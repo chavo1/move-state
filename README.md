@@ -20,7 +20,7 @@ cd ../random_pet
 ```
 - export your ATATLAS_TOKEN
 ```
-ATLAS_TOKEN=<your_atlas_token>
+export ATLAS_TOKEN=<your_atlas_token>
 ```
 - Initialise the provider and apply changes
 ```
