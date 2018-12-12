@@ -34,7 +34,7 @@ data.terraform_remote_state.random_pet: Refreshing state...
 
 Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
-- Than destroy the result should be as similar to following:
+- Than destroy the result should be similar to following:
 
 ```
 $ terraform destroy
