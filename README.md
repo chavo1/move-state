@@ -18,6 +18,7 @@ terraform apply
 terraform state mv -state-out=../random_pet/terraform.tfstate random_pet.name random_pet.name
 cd ../random_pet
 ```
+- Setup your [Atlas backend](https://www.terraform.io/docs/backends/types/terraform-enterprise.html#example-configuration)
 - export your ATLAS_TOKEN
 ```
 export ATLAS_TOKEN=<your_atlas_token>
