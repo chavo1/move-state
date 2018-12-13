@@ -1,4 +1,4 @@
-# Example Terraform Move state
+# Example Terraform Move a Module to Another State (Atlas)
 
 
 ## Clone the repo
