@@ -1,8 +1,7 @@
-data "terraform_remote_state" "random_pet" {
-  backend = "atlas"
-
-  config {
+terraform {
+  backend "atlas" {
     name = "chavo4/random_pet_remote"
+    address = "https://app.terraform.io" # optional
   }
 }
 
